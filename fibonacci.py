@@ -1,3 +1,4 @@
+#Determines fibonacci number of the nth term in the sequence.
 def fibonacci(n):
     old=1
     new= 1
@@ -6,7 +7,5 @@ def fibonacci(n):
         new=old
         old= tmpVal + old
     return new 
-
-    
 
 print(fibonacci(3))
