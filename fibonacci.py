@@ -10,6 +10,3 @@ def fibonacci(n):
     
 
 print(fibonacci(3))
-
-#take first number and add it to 1
-#take sum result and add to second number
