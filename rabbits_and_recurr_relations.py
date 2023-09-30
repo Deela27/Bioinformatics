@@ -4,3 +4,4 @@ def rabbits(months,offspring):
         child,parent=parent,parent+(child*offspring)
     return child
 
+print(rabbits(36,3))
